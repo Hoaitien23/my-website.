@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đổi Mật Khẩu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Đổi Mật Khẩu</h2>
+
+        <div id="loginForm">
+            <label for="password">Nhập mật khẩu cũ:</label>
+            <input type="password" id="oldPassword" placeholder="Mật khẩu cũ">
+
+            <label for="newPassword">Nhập mật khẩu mới:</label>
+            <input type="password" id="newPassword" placeholder="Mật khẩu mới">
+
+            <label for="confirmPassword">Xác nhận mật khẩu mới:</label>
+            <input type="password" id="confirmPassword" placeholder="Xác nhận mật khẩu">
+
+            <button onclick="changePassword()">Đổi mật khẩu</button>
+        </div>
+
+        <div id="message" class="message"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
